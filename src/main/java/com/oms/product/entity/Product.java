@@ -37,6 +37,9 @@ public class Product {
 	private String subcategory;
 	
 	
+	public Product() {
+		super();
+	}
 	public Long getProdid() {
 		return prodId;
 	}
